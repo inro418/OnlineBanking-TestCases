@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="4" total="38" passed="34">
+  <reporter-output>
+  </reporter-output>
+  <suite name="OnlineBanking" duration-ms="461" started-at="2020-11-06T01:48:44Z" finished-at="2020-11-06T01:48:45Z">
+    <groups>
+    </groups>
+    <test name="Regression Test" duration-ms="8" started-at="2020-11-06T01:48:44Z" finished-at="2020-11-06T01:48:44Z">
+    </test> <!-- Regression Test -->
+    <test name="Admin" duration-ms="70" started-at="2020-11-06T01:48:45Z" finished-at="2020-11-06T01:48:45Z">
+      <class name="tests.Admin">
+        <test-method status="PASS" signature="VerifyAdminchangePasswordwithValidandInvalidData()[pri:0, instance:tests.Admin@c038203]" name="VerifyAdminchangePasswordwithValidandInvalidData" duration-ms="16" started-at="2020-11-06T01:48:45Z" finished-at="2020-11-06T01:48:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyAdminchangePasswordwithValidandInvalidData -->
+        <test-method status="PASS" signature="VerifyAdminchangePasswordwithexistingData()[pri:0, instance:tests.Admin@c038203]" name="VerifyAdminchangePasswordwithexistingData" duration-ms="2" started-at="2020-11-06T01:48:45Z" finished-at="2020-11-06T01:48:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyAdminchangePasswordwithexistingData -->
+        <test-method status="PASS" signature="VerifyAdminchangePasswordwithoutData()[pri:0, instance:tests.Admin@c038203]" name="VerifyAdminchangePasswordwithoutData" duration-ms="3" started-at="2020-11-06T01:48:45Z" finished-at="2020-11-06T01:48:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyAdminchangePasswordwithoutData -->
+        <test-method status="PASS" signature="VerifyAdminloginwithValidandInvalidData()[pri:0, instance:tests.Admin@c038203]" name="VerifyAdminloginwithValidandInvalidData" duration-ms="2" started-at="2020-11-06T01:48:45Z" finished-at="2020-11-06T01:48:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyAdminloginwithValidandInvalidData -->
+        <test-method status="PASS" signature="VerifyAdminlogout()[pri:0, instance:tests.Admin@c038203]" name="VerifyAdminlogout" duration-ms="3" started-at="2020-11-06T01:48:45Z" finished-at="2020-11-06T01:48:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyAdminlogout -->
+        <test-method status="PASS" signature="VerifyallAdminHomelinks()[pri:0, instance:tests.Admin@c038203]" name="VerifyallAdminHomelinks" duration-ms="2" started-at="2020-11-06T01:48:45Z" finished-at="2020-11-06T01:48:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyallAdminHomelinks -->
+      </class> <!-- tests.Admin -->
+    </test> <!-- Admin -->
+    <test name="NewBranch" duration-ms="33" started-at="2020-11-06T01:48:45Z" finished-at="2020-11-06T01:48:45Z">
+      <class name="tests.NewBranch">
+        <test-method status="PASS" signature="Createanewbranchwithexistingbranchdata()[pri:0, instance:tests.NewBranch@14acaea5]" name="Createanewbranchwithexistingbranchdata" duration-ms="2" started-at="2020-11-06T01:48:45Z" finished-at="2020-11-06T01:48:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Createanewbranchwithexistingbranchdata -->
+        <test-method status="PASS" signature="Createanewbranchwithoutdata()[pri:0, instance:tests.NewBranch@14acaea5]" name="Createanewbranchwithoutdata" duration-ms="2" started-at="2020-11-06T01:48:45Z" finished-at="2020-11-06T01:48:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Createanewbranchwithoutdata -->
+        <test-method status="PASS" signature="Createanewbranchwithvalidandinvaliddata()[pri:0, instance:tests.NewBranch@14acaea5]" name="Createanewbranchwithvalidandinvaliddata" duration-ms="4" started-at="2020-11-06T01:48:45Z" finished-at="2020-11-06T01:48:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Createanewbranchwithvalidandinvaliddata -->
+        <test-method status="PASS" signature="UpdateBranchwithValidandInvalidData()[pri:0, instance:tests.NewBranch@14acaea5]" name="UpdateBranchwithValidandInvalidData" duration-ms="1" started-at="2020-11-06T01:48:45Z" finished-at="2020-11-06T01:48:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UpdateBranchwithValidandInvalidData -->
+        <test-method status="PASS" signature="UpdatebranchwithexistingBranchData()[pri:0, instance:tests.NewBranch@14acaea5]" name="UpdatebranchwithexistingBranchData" duration-ms="2" started-at="2020-11-06T01:48:45Z" finished-at="2020-11-06T01:48:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UpdatebranchwithexistingBranchData -->
+        <test-method status="PASS" signature="VerifyBranchdeletionwithandwithoutdependencies()[pri:0, instance:tests.NewBranch@14acaea5]" name="VerifyBranchdeletionwithandwithoutdependencies" duration-ms="1" started-at="2020-11-06T01:48:45Z" finished-at="2020-11-06T01:48:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyBranchdeletionwithandwithoutdependencies -->
+        <test-method status="PASS" signature="VerifyBranchsearchoption()[pri:0, instance:tests.NewBranch@14acaea5]" name="VerifyBranchsearchoption" duration-ms="1" started-at="2020-11-06T01:48:45Z" finished-at="2020-11-06T01:48:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyBranchsearchoption -->
+        <test-method status="PASS" signature="Verifycanceloption()[pri:0, instance:tests.NewBranch@14acaea5]" name="Verifycanceloption" duration-ms="2" started-at="2020-11-06T01:48:45Z" finished-at="2020-11-06T01:48:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verifycanceloption -->
+        <test-method status="PASS" signature="Verifyresetandcanceloption()[pri:0, instance:tests.NewBranch@14acaea5]" name="Verifyresetandcanceloption" duration-ms="2" started-at="2020-11-06T01:48:45Z" finished-at="2020-11-06T01:48:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verifyresetandcanceloption -->
+      </class> <!-- tests.NewBranch -->
+    </test> <!-- NewBranch -->
+    <test name="NewUsers" duration-ms="36" started-at="2020-11-06T01:48:45Z" finished-at="2020-11-06T01:48:45Z">
+      <class name="tests.NewUsers">
+        <test-method status="PASS" signature="CreateanewuserwithValidandInvalidData()[pri:0, instance:tests.NewUsers@61832929]" name="CreateanewuserwithValidandInvalidData" duration-ms="2" started-at="2020-11-06T01:48:45Z" finished-at="2020-11-06T01:48:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateanewuserwithValidandInvalidData -->
+        <test-method status="PASS" signature="CreateanewuserwithexistingBranchData()[pri:0, instance:tests.NewUsers@61832929]" name="CreateanewuserwithexistingBranchData" duration-ms="1" started-at="2020-11-06T01:48:45Z" finished-at="2020-11-06T01:48:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateanewuserwithexistingBranchData -->
+        <test-method status="PASS" signature="UpdateuserwithValidandInvalidData()[pri:0, instance:tests.NewUsers@61832929]" name="UpdateuserwithValidandInvalidData" duration-ms="2" started-at="2020-11-06T01:48:45Z" finished-at="2020-11-06T01:48:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UpdateuserwithValidandInvalidData -->
+        <test-method status="PASS" signature="UpdateuserwithexistingData()[pri:0, instance:tests.NewUsers@61832929]" name="UpdateuserwithexistingData" duration-ms="1" started-at="2020-11-06T01:48:45Z" finished-at="2020-11-06T01:48:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UpdateuserwithexistingData -->
+        <test-method status="PASS" signature="Verifycancelandresetoption()[pri:0, instance:tests.NewUsers@61832929]" name="Verifycancelandresetoption" duration-ms="1" started-at="2020-11-06T01:48:45Z" finished-at="2020-11-06T01:48:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verifycancelandresetoption -->
+        <test-method status="PASS" signature="Verifycanceloption()[pri:0, instance:tests.NewUsers@61832929]" name="Verifycanceloption" duration-ms="12" started-at="2020-11-06T01:48:45Z" finished-at="2020-11-06T01:48:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verifycanceloption -->
+        <test-method status="PASS" signature="Verifydeletionoftheuser()[pri:0, instance:tests.NewUsers@61832929]" name="Verifydeletionoftheuser" duration-ms="1" started-at="2020-11-06T01:48:45Z" finished-at="2020-11-06T01:48:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verifydeletionoftheuser -->
+      </class> <!-- tests.NewUsers -->
+    </test> <!-- NewUsers -->
+    <test name="NewRole" duration-ms="32" started-at="2020-11-06T01:48:45Z" finished-at="2020-11-06T01:48:45Z">
+      <class name="tests.NewRole">
+        <test-method status="PASS" signature="Createanewrolewithoutdata()[pri:0, instance:tests.NewRole@59f99ea]" name="Createanewrolewithoutdata" duration-ms="1" started-at="2020-11-06T01:48:45Z" finished-at="2020-11-06T01:48:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Createanewrolewithoutdata -->
+        <test-method status="PASS" signature="Createanewrolewithvalidandinvaliddata()[pri:0, instance:tests.NewRole@59f99ea]" name="Createanewrolewithvalidandinvaliddata" duration-ms="1" started-at="2020-11-06T01:48:45Z" finished-at="2020-11-06T01:48:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Createanewrolewithvalidandinvaliddata -->
+        <test-method status="PASS" signature="ForcustomerVisitors()[pri:0, instance:tests.NewRole@59f99ea]" name="ForcustomerVisitors" duration-ms="2" started-at="2020-11-06T01:48:45Z" finished-at="2020-11-06T01:48:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ForcustomerVisitors -->
+        <test-method status="PASS" signature="Verifyallvisitororcustomerlinks()[pri:0, instance:tests.NewRole@59f99ea]" name="Verifyallvisitororcustomerlinks" duration-ms="1" started-at="2020-11-06T01:48:45Z" finished-at="2020-11-06T01:48:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verifyallvisitororcustomerlinks -->
+        <test-method status="PASS" signature="VerifybankerloginwithValidorInvalidData()[pri:0, instance:tests.NewRole@59f99ea]" name="VerifybankerloginwithValidorInvalidData" duration-ms="0" started-at="2020-11-06T01:48:45Z" finished-at="2020-11-06T01:48:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifybankerloginwithValidorInvalidData -->
+        <test-method status="PASS" signature="VerifybankerloginwithoutData()[pri:0, instance:tests.NewRole@59f99ea]" name="VerifybankerloginwithoutData" duration-ms="1" started-at="2020-11-06T01:48:45Z" finished-at="2020-11-06T01:48:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifybankerloginwithoutData -->
+        <test-method status="PASS" signature="Verifycancelandresetoption()[pri:0, instance:tests.NewRole@59f99ea]" name="Verifycancelandresetoption" duration-ms="1" started-at="2020-11-06T01:48:45Z" finished-at="2020-11-06T01:48:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verifycancelandresetoption -->
+        <test-method status="PASS" signature="VerifycustomersloginwithValidandInvalidData()[pri:0, instance:tests.NewRole@59f99ea]" name="VerifycustomersloginwithValidandInvalidData" duration-ms="1" started-at="2020-11-06T01:48:45Z" finished-at="2020-11-06T01:48:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifycustomersloginwithValidandInvalidData -->
+        <test-method status="PASS" signature="VerifylinksinroledetailsPage()[pri:0, instance:tests.NewRole@59f99ea]" name="VerifylinksinroledetailsPage" duration-ms="2" started-at="2020-11-06T01:48:45Z" finished-at="2020-11-06T01:48:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifylinksinroledetailsPage -->
+        <test-method status="PASS" signature="Verifynewrolewithexistingdata()[pri:0, instance:tests.NewRole@59f99ea]" name="Verifynewrolewithexistingdata" duration-ms="1" started-at="2020-11-06T01:48:45Z" finished-at="2020-11-06T01:48:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verifynewrolewithexistingdata -->
+        <test-method status="PASS" signature="Verifyroledeletionwithandwithoutdependency()[pri:0, instance:tests.NewRole@59f99ea]" name="Verifyroledeletionwithandwithoutdependency" duration-ms="1" started-at="2020-11-06T01:48:45Z" finished-at="2020-11-06T01:48:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verifyroledeletionwithandwithoutdependency -->
+        <test-method status="PASS" signature="Verifyroledescriptionandroletypes()[pri:0, instance:tests.NewRole@59f99ea]" name="Verifyroledescriptionandroletypes" duration-ms="1" started-at="2020-11-06T01:48:45Z" finished-at="2020-11-06T01:48:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verifyroledescriptionandroletypes -->
+      </class> <!-- tests.NewRole -->
+    </test> <!-- NewRole -->
+  </suite> <!-- OnlineBanking -->
+</testng-results>

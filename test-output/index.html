@@ -1,0 +1,1001 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-OnlineBanking">
+              <span class="suite-name border-passed">OnlineBanking</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-OnlineBanking">
+                    <span>C:\Users\koree\Workspace\OnlineBankingTestCases\testng1.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-OnlineBanking">
+                    <span class="test-stats">5 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-OnlineBanking">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-OnlineBanking">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-OnlineBanking">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-OnlineBanking">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-OnlineBanking">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">34 methods,   34 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-OnlineBanking" class="hide-methods passed suite-OnlineBanking"> (hide)</a> <!-- hide-methods passed suite-OnlineBanking -->
+                      <a href="#" panel-name="suite-OnlineBanking" class="show-methods passed suite-OnlineBanking"> (show)</a> <!-- show-methods passed suite-OnlineBanking -->
+                    </span>
+                    <div class="method-list-content passed suite-OnlineBanking">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-OnlineBanking" title="tests.NewBranch" hash-for-method="Createanewbranchwithexistingbranchdata">Createanewbranchwithexistingbranchdata</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-OnlineBanking" title="tests.NewBranch" hash-for-method="Createanewbranchwithoutdata">Createanewbranchwithoutdata</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-OnlineBanking" title="tests.NewBranch" hash-for-method="Createanewbranchwithvalidandinvaliddata">Createanewbranchwithvalidandinvaliddata</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-OnlineBanking" title="tests.NewRole" hash-for-method="Createanewrolewithoutdata">Createanewrolewithoutdata</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-OnlineBanking" title="tests.NewRole" hash-for-method="Createanewrolewithvalidandinvaliddata">Createanewrolewithvalidandinvaliddata</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-OnlineBanking" title="tests.NewUsers" hash-for-method="CreateanewuserwithValidandInvalidData">CreateanewuserwithValidandInvalidData</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-OnlineBanking" title="tests.NewUsers" hash-for-method="CreateanewuserwithexistingBranchData">CreateanewuserwithexistingBranchData</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-OnlineBanking" title="tests.NewRole" hash-for-method="ForcustomerVisitors">ForcustomerVisitors</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-OnlineBanking" title="tests.NewBranch" hash-for-method="UpdateBranchwithValidandInvalidData">UpdateBranchwithValidandInvalidData</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-OnlineBanking" title="tests.NewBranch" hash-for-method="UpdatebranchwithexistingBranchData">UpdatebranchwithexistingBranchData</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-OnlineBanking" title="tests.NewUsers" hash-for-method="UpdateuserwithValidandInvalidData">UpdateuserwithValidandInvalidData</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-OnlineBanking" title="tests.NewUsers" hash-for-method="UpdateuserwithexistingData">UpdateuserwithexistingData</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-OnlineBanking" title="tests.Admin" hash-for-method="VerifyAdminchangePasswordwithValidandInvalidData">VerifyAdminchangePasswordwithValidandInvalidData</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-OnlineBanking" title="tests.Admin" hash-for-method="VerifyAdminchangePasswordwithexistingData">VerifyAdminchangePasswordwithexistingData</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-OnlineBanking" title="tests.Admin" hash-for-method="VerifyAdminchangePasswordwithoutData">VerifyAdminchangePasswordwithoutData</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-OnlineBanking" title="tests.Admin" hash-for-method="VerifyAdminloginwithValidandInvalidData">VerifyAdminloginwithValidandInvalidData</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-OnlineBanking" title="tests.Admin" hash-for-method="VerifyAdminlogout">VerifyAdminlogout</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-OnlineBanking" title="tests.NewBranch" hash-for-method="VerifyBranchdeletionwithandwithoutdependencies">VerifyBranchdeletionwithandwithoutdependencies</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-OnlineBanking" title="tests.NewBranch" hash-for-method="VerifyBranchsearchoption">VerifyBranchsearchoption</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-OnlineBanking" title="tests.Admin" hash-for-method="VerifyallAdminHomelinks">VerifyallAdminHomelinks</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-OnlineBanking" title="tests.NewRole" hash-for-method="Verifyallvisitororcustomerlinks">Verifyallvisitororcustomerlinks</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-OnlineBanking" title="tests.NewRole" hash-for-method="VerifybankerloginwithValidorInvalidData">VerifybankerloginwithValidorInvalidData</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-OnlineBanking" title="tests.NewRole" hash-for-method="VerifybankerloginwithoutData">VerifybankerloginwithoutData</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-OnlineBanking" title="tests.NewUsers" hash-for-method="Verifycancelandresetoption">Verifycancelandresetoption</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-OnlineBanking" title="tests.NewRole" hash-for-method="Verifycancelandresetoption">Verifycancelandresetoption</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-OnlineBanking" title="tests.NewBranch" hash-for-method="Verifycanceloption">Verifycanceloption</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-OnlineBanking" title="tests.NewUsers" hash-for-method="Verifycanceloption">Verifycanceloption</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-OnlineBanking" title="tests.NewRole" hash-for-method="VerifycustomersloginwithValidandInvalidData">VerifycustomersloginwithValidandInvalidData</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-OnlineBanking" title="tests.NewUsers" hash-for-method="Verifydeletionoftheuser">Verifydeletionoftheuser</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-OnlineBanking" title="tests.NewRole" hash-for-method="VerifylinksinroledetailsPage">VerifylinksinroledetailsPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-OnlineBanking" title="tests.NewRole" hash-for-method="Verifynewrolewithexistingdata">Verifynewrolewithexistingdata</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-OnlineBanking" title="tests.NewBranch" hash-for-method="Verifyresetandcanceloption">Verifyresetandcanceloption</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-OnlineBanking" title="tests.NewRole" hash-for-method="Verifyroledeletionwithandwithoutdependency">Verifyroledeletionwithandwithoutdependency</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-OnlineBanking" title="tests.NewRole" hash-for-method="Verifyroledescriptionandroletypes">Verifyroledescriptionandroletypes</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-OnlineBanking -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-OnlineBanking" class="panel OnlineBanking">
+          <div class="suite-OnlineBanking-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.NewRole</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Createanewrolewithoutdata">
+                  </a> <!-- Createanewrolewithoutdata -->
+                  <span class="method-name">Createanewrolewithoutdata</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Createanewrolewithvalidandinvaliddata">
+                  </a> <!-- Createanewrolewithvalidandinvaliddata -->
+                  <span class="method-name">Createanewrolewithvalidandinvaliddata</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ForcustomerVisitors">
+                  </a> <!-- ForcustomerVisitors -->
+                  <span class="method-name">ForcustomerVisitors</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Verifyallvisitororcustomerlinks">
+                  </a> <!-- Verifyallvisitororcustomerlinks -->
+                  <span class="method-name">Verifyallvisitororcustomerlinks</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifybankerloginwithValidorInvalidData">
+                  </a> <!-- VerifybankerloginwithValidorInvalidData -->
+                  <span class="method-name">VerifybankerloginwithValidorInvalidData</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifybankerloginwithoutData">
+                  </a> <!-- VerifybankerloginwithoutData -->
+                  <span class="method-name">VerifybankerloginwithoutData</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Verifycancelandresetoption">
+                  </a> <!-- Verifycancelandresetoption -->
+                  <span class="method-name">Verifycancelandresetoption</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifycustomersloginwithValidandInvalidData">
+                  </a> <!-- VerifycustomersloginwithValidandInvalidData -->
+                  <span class="method-name">VerifycustomersloginwithValidandInvalidData</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifylinksinroledetailsPage">
+                  </a> <!-- VerifylinksinroledetailsPage -->
+                  <span class="method-name">VerifylinksinroledetailsPage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Verifynewrolewithexistingdata">
+                  </a> <!-- Verifynewrolewithexistingdata -->
+                  <span class="method-name">Verifynewrolewithexistingdata</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Verifyroledeletionwithandwithoutdependency">
+                  </a> <!-- Verifyroledeletionwithandwithoutdependency -->
+                  <span class="method-name">Verifyroledeletionwithandwithoutdependency</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Verifyroledescriptionandroletypes">
+                  </a> <!-- Verifyroledescriptionandroletypes -->
+                  <span class="method-name">Verifyroledescriptionandroletypes</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-OnlineBanking-class-passed -->
+          <div class="suite-OnlineBanking-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.Admin</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyAdminchangePasswordwithValidandInvalidData">
+                  </a> <!-- VerifyAdminchangePasswordwithValidandInvalidData -->
+                  <span class="method-name">VerifyAdminchangePasswordwithValidandInvalidData</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyAdminchangePasswordwithexistingData">
+                  </a> <!-- VerifyAdminchangePasswordwithexistingData -->
+                  <span class="method-name">VerifyAdminchangePasswordwithexistingData</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyAdminchangePasswordwithoutData">
+                  </a> <!-- VerifyAdminchangePasswordwithoutData -->
+                  <span class="method-name">VerifyAdminchangePasswordwithoutData</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyAdminloginwithValidandInvalidData">
+                  </a> <!-- VerifyAdminloginwithValidandInvalidData -->
+                  <span class="method-name">VerifyAdminloginwithValidandInvalidData</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyAdminlogout">
+                  </a> <!-- VerifyAdminlogout -->
+                  <span class="method-name">VerifyAdminlogout</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyallAdminHomelinks">
+                  </a> <!-- VerifyallAdminHomelinks -->
+                  <span class="method-name">VerifyallAdminHomelinks</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-OnlineBanking-class-passed -->
+          <div class="suite-OnlineBanking-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.NewBranch</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Createanewbranchwithexistingbranchdata">
+                  </a> <!-- Createanewbranchwithexistingbranchdata -->
+                  <span class="method-name">Createanewbranchwithexistingbranchdata</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Createanewbranchwithoutdata">
+                  </a> <!-- Createanewbranchwithoutdata -->
+                  <span class="method-name">Createanewbranchwithoutdata</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Createanewbranchwithvalidandinvaliddata">
+                  </a> <!-- Createanewbranchwithvalidandinvaliddata -->
+                  <span class="method-name">Createanewbranchwithvalidandinvaliddata</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="UpdateBranchwithValidandInvalidData">
+                  </a> <!-- UpdateBranchwithValidandInvalidData -->
+                  <span class="method-name">UpdateBranchwithValidandInvalidData</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="UpdatebranchwithexistingBranchData">
+                  </a> <!-- UpdatebranchwithexistingBranchData -->
+                  <span class="method-name">UpdatebranchwithexistingBranchData</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyBranchdeletionwithandwithoutdependencies">
+                  </a> <!-- VerifyBranchdeletionwithandwithoutdependencies -->
+                  <span class="method-name">VerifyBranchdeletionwithandwithoutdependencies</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyBranchsearchoption">
+                  </a> <!-- VerifyBranchsearchoption -->
+                  <span class="method-name">VerifyBranchsearchoption</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Verifycanceloption">
+                  </a> <!-- Verifycanceloption -->
+                  <span class="method-name">Verifycanceloption</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Verifyresetandcanceloption">
+                  </a> <!-- Verifyresetandcanceloption -->
+                  <span class="method-name">Verifyresetandcanceloption</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-OnlineBanking-class-passed -->
+          <div class="suite-OnlineBanking-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.NewUsers</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="CreateanewuserwithValidandInvalidData">
+                  </a> <!-- CreateanewuserwithValidandInvalidData -->
+                  <span class="method-name">CreateanewuserwithValidandInvalidData</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="CreateanewuserwithexistingBranchData">
+                  </a> <!-- CreateanewuserwithexistingBranchData -->
+                  <span class="method-name">CreateanewuserwithexistingBranchData</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="UpdateuserwithValidandInvalidData">
+                  </a> <!-- UpdateuserwithValidandInvalidData -->
+                  <span class="method-name">UpdateuserwithValidandInvalidData</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="UpdateuserwithexistingData">
+                  </a> <!-- UpdateuserwithexistingData -->
+                  <span class="method-name">UpdateuserwithexistingData</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Verifycancelandresetoption">
+                  </a> <!-- Verifycancelandresetoption -->
+                  <span class="method-name">Verifycancelandresetoption</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Verifycanceloption">
+                  </a> <!-- Verifycanceloption -->
+                  <span class="method-name">Verifycanceloption</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Verifydeletionoftheuser">
+                  </a> <!-- Verifydeletionoftheuser -->
+                  <span class="method-name">Verifydeletionoftheuser</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-OnlineBanking-class-passed -->
+        </div> <!-- panel OnlineBanking -->
+        <div panel-name="test-xml-OnlineBanking" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\koree\Workspace\OnlineBankingTestCases\testng1.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;OnlineBanking&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;tests.Listeners&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test name=&quot;Regression Test&quot;&gt;
+  &lt;/test&gt; &lt;!-- Regression Test --&gt;
+  &lt;test name=&quot;Admin&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;tests.Admin&quot;&gt;
+        &lt;methods&gt;
+          &lt;exclude name=&quot;VerifyAdminloginwithoutData&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- tests.Admin --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Admin --&gt;
+  &lt;test name=&quot;NewBranch&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;tests.NewBranch&quot;&gt;
+        &lt;methods&gt;
+          &lt;exclude name=&quot;UpdateBranchwithoutData&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- tests.NewBranch --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- NewBranch --&gt;
+  &lt;test name=&quot;NewUsers&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;tests.NewUsers&quot;&gt;
+        &lt;methods&gt;
+          &lt;exclude name=&quot;CreateanewuserwithoutData&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- tests.NewUsers --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- NewUsers --&gt;
+  &lt;test name=&quot;NewRole&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;tests.NewRole&quot;&gt;
+        &lt;methods&gt;
+          &lt;exclude name=&quot;VerifycustomersloginwithoutData&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- tests.NewRole --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- NewRole --&gt;
+&lt;/suite&gt; &lt;!-- OnlineBanking --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-OnlineBanking" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for OnlineBanking</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Regression Test (0 classes)</span>
+              </li>
+              <li>
+                <span class="test-name">Admin (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">NewBranch (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">NewUsers (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">NewRole (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-OnlineBanking" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for OnlineBanking</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-OnlineBanking" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for OnlineBanking</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_OnlineBanking');
+function tableData_OnlineBanking() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(34);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'VerifyAdminchangePasswordwithValidandInvalidData')
+data.setCell(0, 2, 'tests.Admin')
+data.setCell(0, 3, 16);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'Verifycanceloption')
+data.setCell(1, 2, 'tests.NewUsers')
+data.setCell(1, 3, 12);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'Createanewbranchwithvalidandinvaliddata')
+data.setCell(2, 2, 'tests.NewBranch')
+data.setCell(2, 3, 4);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'VerifyAdminlogout')
+data.setCell(3, 2, 'tests.Admin')
+data.setCell(3, 3, 3);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'VerifyAdminchangePasswordwithoutData')
+data.setCell(4, 2, 'tests.Admin')
+data.setCell(4, 3, 3);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'VerifyallAdminHomelinks')
+data.setCell(5, 2, 'tests.Admin')
+data.setCell(5, 3, 2);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'VerifyAdminchangePasswordwithexistingData')
+data.setCell(6, 2, 'tests.Admin')
+data.setCell(6, 3, 2);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'VerifyAdminloginwithValidandInvalidData')
+data.setCell(7, 2, 'tests.Admin')
+data.setCell(7, 3, 2);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'Createanewbranchwithoutdata')
+data.setCell(8, 2, 'tests.NewBranch')
+data.setCell(8, 3, 2);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'Verifycanceloption')
+data.setCell(9, 2, 'tests.NewBranch')
+data.setCell(9, 3, 2);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'Verifyresetandcanceloption')
+data.setCell(10, 2, 'tests.NewBranch')
+data.setCell(10, 3, 2);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'UpdatebranchwithexistingBranchData')
+data.setCell(11, 2, 'tests.NewBranch')
+data.setCell(11, 3, 2);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'Createanewbranchwithexistingbranchdata')
+data.setCell(12, 2, 'tests.NewBranch')
+data.setCell(12, 3, 2);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'CreateanewuserwithValidandInvalidData')
+data.setCell(13, 2, 'tests.NewUsers')
+data.setCell(13, 3, 2);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'UpdateuserwithValidandInvalidData')
+data.setCell(14, 2, 'tests.NewUsers')
+data.setCell(14, 3, 2);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'ForcustomerVisitors')
+data.setCell(15, 2, 'tests.NewRole')
+data.setCell(15, 3, 2);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'VerifylinksinroledetailsPage')
+data.setCell(16, 2, 'tests.NewRole')
+data.setCell(16, 3, 2);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'VerifyBranchsearchoption')
+data.setCell(17, 2, 'tests.NewBranch')
+data.setCell(17, 3, 1);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'UpdateBranchwithValidandInvalidData')
+data.setCell(18, 2, 'tests.NewBranch')
+data.setCell(18, 3, 1);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'VerifyBranchdeletionwithandwithoutdependencies')
+data.setCell(19, 2, 'tests.NewBranch')
+data.setCell(19, 3, 1);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'Verifydeletionoftheuser')
+data.setCell(20, 2, 'tests.NewUsers')
+data.setCell(20, 3, 1);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'Verifycancelandresetoption')
+data.setCell(21, 2, 'tests.NewUsers')
+data.setCell(21, 3, 1);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'UpdateuserwithexistingData')
+data.setCell(22, 2, 'tests.NewUsers')
+data.setCell(22, 3, 1);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'CreateanewuserwithexistingBranchData')
+data.setCell(23, 2, 'tests.NewUsers')
+data.setCell(23, 3, 1);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'VerifybankerloginwithoutData')
+data.setCell(24, 2, 'tests.NewRole')
+data.setCell(24, 3, 1);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'Verifyallvisitororcustomerlinks')
+data.setCell(25, 2, 'tests.NewRole')
+data.setCell(25, 3, 1);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'Verifycancelandresetoption')
+data.setCell(26, 2, 'tests.NewRole')
+data.setCell(26, 3, 1);
+data.setCell(27, 0, 27)
+data.setCell(27, 1, 'Createanewrolewithoutdata')
+data.setCell(27, 2, 'tests.NewRole')
+data.setCell(27, 3, 1);
+data.setCell(28, 0, 28)
+data.setCell(28, 1, 'Verifyroledeletionwithandwithoutdependency')
+data.setCell(28, 2, 'tests.NewRole')
+data.setCell(28, 3, 1);
+data.setCell(29, 0, 29)
+data.setCell(29, 1, 'Verifyroledescriptionandroletypes')
+data.setCell(29, 2, 'tests.NewRole')
+data.setCell(29, 3, 1);
+data.setCell(30, 0, 30)
+data.setCell(30, 1, 'Createanewrolewithvalidandinvaliddata')
+data.setCell(30, 2, 'tests.NewRole')
+data.setCell(30, 3, 1);
+data.setCell(31, 0, 31)
+data.setCell(31, 1, 'VerifycustomersloginwithValidandInvalidData')
+data.setCell(31, 2, 'tests.NewRole')
+data.setCell(31, 3, 1);
+data.setCell(32, 0, 32)
+data.setCell(32, 1, 'Verifynewrolewithexistingdata')
+data.setCell(32, 2, 'tests.NewRole')
+data.setCell(32, 3, 1);
+data.setCell(33, 0, 33)
+data.setCell(33, 1, 'VerifybankerloginwithValidorInvalidData')
+data.setCell(33, 2, 'tests.NewRole')
+data.setCell(33, 3, 0);
+window.suiteTableData['OnlineBanking']= { tableData: data, tableDiv: 'times-div-OnlineBanking'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 78 ms</span>
+              <div id="times-div-OnlineBanking">
+              </div> <!-- times-div-OnlineBanking -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-OnlineBanking" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for OnlineBanking</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-OnlineBanking" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">4 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">tests.NewRole</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">VerifycustomersloginwithoutData</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">tests.Admin</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">VerifyAdminloginwithoutData</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">tests.NewBranch</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">UpdateBranchwithoutData</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">tests.NewUsers</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">CreateanewuserwithoutData</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-OnlineBanking" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.Admin</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">VerifyAdminchangePasswordwithValidandInvalidData</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">VerifyAdminchangePasswordwithexistingData</span>
+                <span class="method-start">18 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">VerifyAdminchangePasswordwithoutData</span>
+                <span class="method-start">23 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">VerifyAdminloginwithValidandInvalidData</span>
+                <span class="method-start">28 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">VerifyAdminlogout</span>
+                <span class="method-start">31 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">VerifyallAdminHomelinks</span>
+                <span class="method-start">38 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.NewBranch</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">Createanewbranchwithexistingbranchdata</span>
+                <span class="method-start">77 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Createanewbranchwithoutdata</span>
+                <span class="method-start">80 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Createanewbranchwithvalidandinvaliddata</span>
+                <span class="method-start">85 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">UpdateBranchwithValidandInvalidData</span>
+                <span class="method-start">90 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">UpdatebranchwithexistingBranchData</span>
+                <span class="method-start">92 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">VerifyBranchdeletionwithandwithoutdependencies</span>
+                <span class="method-start">95 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">VerifyBranchsearchoption</span>
+                <span class="method-start">97 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Verifycanceloption</span>
+                <span class="method-start">99 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Verifyresetandcanceloption</span>
+                <span class="method-start">103 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.NewUsers</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">CreateanewuserwithValidandInvalidData</span>
+                <span class="method-start">122 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">CreateanewuserwithexistingBranchData</span>
+                <span class="method-start">126 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">UpdateuserwithValidandInvalidData</span>
+                <span class="method-start">128 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">UpdateuserwithexistingData</span>
+                <span class="method-start">131 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Verifycancelandresetoption</span>
+                <span class="method-start">137 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Verifycanceloption</span>
+                <span class="method-start">140 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Verifydeletionoftheuser</span>
+                <span class="method-start">155 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.NewRole</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">Createanewrolewithoutdata</span>
+                <span class="method-start">168 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Createanewrolewithvalidandinvaliddata</span>
+                <span class="method-start">170 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">ForcustomerVisitors</span>
+                <span class="method-start">177 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Verifyallvisitororcustomerlinks</span>
+                <span class="method-start">180 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">VerifybankerloginwithValidorInvalidData</span>
+                <span class="method-start">182 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">VerifybankerloginwithoutData</span>
+                <span class="method-start">184 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Verifycancelandresetoption</span>
+                <span class="method-start">186 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">VerifycustomersloginwithValidandInvalidData</span>
+                <span class="method-start">188 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">VerifylinksinroledetailsPage</span>
+                <span class="method-start">189 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Verifynewrolewithexistingdata</span>
+                <span class="method-start">193 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Verifyroledeletionwithandwithoutdependency</span>
+                <span class="method-start">195 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Verifyroledescriptionandroletypes</span>
+                <span class="method-start">198 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

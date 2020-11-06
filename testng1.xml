@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="OnlineBanking">
+
+<listeners>
+
+<listener class-name="tests.Listeners"/>
+
+</listeners>
+
+	<test name="Regression Test">
+		<classes>
+
+		</classes>
+
+	</test>
+	<test name="Admin">
+
+		<classes>
+
+			<class name="tests.Admin">
+				<methods>
+
+					<exclude name="VerifyAdminloginwithoutData" />
+
+				</methods>
+			</class>
+		</classes>
+
+	</test>
+	<test name="NewBranch">
+
+		<classes>
+
+			<class name="tests.NewBranch">
+
+				<methods>
+
+					<exclude name="UpdateBranchwithoutData" />
+
+				</methods>
+			</class>
+		</classes>
+
+	</test>
+	<test name="NewUsers">
+
+		<classes>
+
+			<class name="tests.NewUsers">
+
+				<methods>
+
+					<exclude name="CreateanewuserwithoutData" />
+
+				</methods>
+			</class>
+		</classes>
+
+	</test>
+	<test name="NewRole">
+
+		<classes>
+
+			<class name="tests.NewRole">
+
+				<methods>
+
+					<exclude name="VerifycustomersloginwithoutData" />
+
+				</methods>
+			</class>
+		</classes>
+	</test>
+</suite> 
+	
+	
